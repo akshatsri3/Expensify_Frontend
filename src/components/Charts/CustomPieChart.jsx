@@ -7,7 +7,7 @@ import {
     ResponsiveContainer,
     Legend
 } from "recharts";
-import CustomTooltip from "./customTooltip";
+import CustomTooltip from "./CustomToolTip";
 
 const CustomPieChart = ({ data, label, totalAmount, colors, showTextAnchor }) => {
     return <ResponsiveContainer width="100%" height={300}>
