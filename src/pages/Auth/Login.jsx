@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 import Authlayout from '../../components/layouts/Authlayout';
-import Input from '../../components/Inputs/input';
+import Input from '../../components/Inputs/Input';
 import { useNavigate } from 'react-router-dom';
 import { validateEmail } from '../../utils/helper';
 import { UserContext } from '../../context/UserContext';
